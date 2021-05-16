@@ -38,7 +38,7 @@ css_trunc = css[['CATEGORY_TITLE'
 def load_category_app_hist():
     ax2 = category_app_hist.plot.bar(x='CATEGORY_COUNT', y='PERCENT_OF_APPS', rot=0)
     plt.xlabel('Number of Category Labels')
-    plt.ylabel('Number of Apps')
+    plt.ylabel('Percent of Apps')
     plt.title('Histogram of Apps by Number of Category Labels')
     plt.show()
     return

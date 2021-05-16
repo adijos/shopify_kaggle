@@ -100,7 +100,7 @@ from shopify.apps as apps
         on category_map.category_id = categories.id
 
 where 1=1
-    and categories.title = 'Finances'
+    and categories.title = '{category_label}'
 
 group by
     apps.id
