@@ -1,9 +1,7 @@
 ### Requirements without Version Specifiers
 numpy
-scipy
 matplotlib
 ipython
 jupyter
 pandas
-boto3
 snowflake-connector-python
